@@ -33,7 +33,7 @@ Some useful mysql commands are things like:
 
 ```
 create database twitterClone;
-use database twitterClone;
+use twitterClone;
 create table tweets(user text,tweet text,time int);
 insert into tweets(user,tweet) values("blhack","Just eating a sandwich");
 ```
