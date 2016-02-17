@@ -37,3 +37,9 @@ use database twitterClone;
 create table tweets(user text,tweet text,time int);
 insert into tweets(user,tweet) values("blhack","Just eating a sandwich");
 ```
+
+If you get a permission denied error, you need to set execute permissions on the python file you are trying to run.  Do:
+
+```
+chmod +x filename.py
+```
